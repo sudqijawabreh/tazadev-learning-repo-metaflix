@@ -149,6 +149,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 /* How it works section  */
 .how-it-works {
   background-color: #f6f6f6;
@@ -204,12 +205,6 @@ body {
   padding: 80px 0;
 }
 
-.faq h2 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
 .questions {
   display: flex;
   flex-direction: column;
@@ -225,12 +220,62 @@ body {
   border-radius: 8px;
 }
 
-.question h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.question summary {
+  cursor: pointer;
 }
 
 .question p {
   font-size: 15px;
   color: #777;
 }
+
+/* Footer section */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.site-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.site-footer a:hover {
+  color: #aaa;
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #aaa;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 30px;
+}
+

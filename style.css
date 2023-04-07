@@ -149,3 +149,52 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+/* How it works section  */
+.how-it-works {
+  background-color: #f6f6f6;
+  padding: 80px 0;
+}
+
+.how-it-works h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.step {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.step:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.step-number {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #0077ff;
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 18px;
+  color: #777;
+}

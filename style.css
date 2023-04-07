@@ -257,6 +257,66 @@ body {
   color: #777;
 }
 
+/* Contact Us section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#contact form {
+  width: 45%;
+}
+
+#contact form input[type=text],
+#contact form input[type=email],
+#contact form textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#contact form button[type=submit] {
+  background-color: #0099cc;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#contact form button[type=submit]:hover {
+  background-color: #0082b3;
+}
+
+.contact-info {
+  width: 45%;
+}
+
+
+
+
+
 /* Footer section */
 .site-footer {
   background-color: #333;

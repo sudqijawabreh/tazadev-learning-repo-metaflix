@@ -476,5 +476,26 @@ body {
     font-size: 18px;
     margin-bottom: 20px;
   }
+  .about-us-content, .about-us-image-container {
+    width: 100%;
+  }
+  
+  .about-us-image-container {
+    height: 60vh;
+    padding-top: 120%;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+  }
+  
+  .about-us-image-container img {
+    top: 70%;
+  }
+  
+  .about-us p {
+    font-size: 16px;
+  }
+  
+  .about-us h2 {
+    font-size: 28px;
+  }
 }
 

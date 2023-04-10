@@ -536,4 +536,31 @@ body {
   .step p {
     font-size: 14px;
   }
+  .faq {
+    padding: 40px 0;
+  }
+  
+  .questions .question {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #Contact {
+    padding: 40px 0;
+  }
+  
+  #Contact .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #Contact form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    width: 100%;
+  }
 }

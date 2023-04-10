@@ -88,6 +88,10 @@ body {
   background-color: #6f6f6f;
 }
 
+.mobile-menu-icon {
+  opacity: 0;
+}
+
 /* Hero section styles */
 .hero {
   background-image: url("hero-bg.jpg");
@@ -421,3 +425,36 @@ body {
   text-align: center;
   margin-top: 30px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  .navbar-menu li {
+    margin-bottom: 10px;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .navbar-menu.show {
+    display: flex;
+  } 
+}
+

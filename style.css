@@ -515,4 +515,25 @@ body {
   .feature-text p {
     font-size: 16px;
   }
+
+  /* How it works section */
+  .steps {
+    flex-direction: column;
+  }
+  .step {
+    flex-basis: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .step-number {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .step h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .step p {
+    font-size: 14px;
+  }
 }

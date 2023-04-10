@@ -143,8 +143,7 @@ body {
   padding: 80px 0;
 }
 
-.about-us-warpper
-{
+.about-us-warpper {
   display: flex;
   height: fit-content;
 }
@@ -156,8 +155,7 @@ body {
   margin-bottom: 40px;
 }
 
-.about-us-content
-{
+.about-us-content {
   width: 50%;
   padding: 15px;
 }
@@ -426,8 +424,6 @@ body {
   margin-top: 30px;
 }
 
-
-
 @media screen and (max-width: 768px) {
   /* Header */
   .navbar-menu {
@@ -456,46 +452,67 @@ body {
   }
   .navbar-menu.show {
     display: flex;
-  } 
+  }
   /* Hero section */
   .hero {
     height: auto;
   }
-  
+
   .hero-content {
     padding: 40px;
     max-width: 100%;
   }
-  
+
   .hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
   }
-  
+
   .hero p {
     font-size: 18px;
     margin-bottom: 20px;
   }
-  .about-us-content, .about-us-image-container {
+
+  /* About us section */
+
+  .about-us-content,
+  .about-us-image-container {
     width: 100%;
   }
-  
+
   .about-us-image-container {
     height: 60vh;
     padding-top: 120%;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
   }
-  
+
   .about-us-image-container img {
     top: 70%;
   }
-  
+
   .about-us p {
     font-size: 16px;
   }
-  
+
   .about-us h2 {
     font-size: 28px;
   }
-}
 
+  /* Features and Benefits section */
+
+  .feature-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .feature-box img {
+    margin-top: 20px;
+  }
+
+  .feature-text h3 {
+    font-size: 24px;
+  }
+
+  .feature-text p {
+    font-size: 16px;
+  }
+}

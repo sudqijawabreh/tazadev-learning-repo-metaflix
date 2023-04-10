@@ -424,6 +424,7 @@ body {
   margin-top: 30px;
 }
 
+/* Responsiveness code */
 @media screen and (max-width: 768px) {
   /* Header */
   .navbar-menu {
@@ -437,9 +438,11 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
   }
+
   .navbar-menu li {
     margin-bottom: 10px;
   }
+
   .mobile-menu-icon {
     display: block;
     position: absolute;
@@ -450,9 +453,11 @@ body {
     cursor: pointer;
     opacity: 1;
   }
+
   .navbar-menu.show {
     display: flex;
   }
+
   /* Hero section */
   .hero {
     height: auto;
@@ -474,7 +479,6 @@ body {
   }
 
   /* About us section */
-
   .about-us-content,
   .about-us-image-container {
     width: 100%;
@@ -499,7 +503,6 @@ body {
   }
 
   /* Features and Benefits section */
-
   .feature-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
@@ -520,47 +523,107 @@ body {
   .steps {
     flex-direction: column;
   }
+
   .step {
     flex-basis: 100%;
     height: auto;
     margin-bottom: 20px;
   }
+
   .step-number {
     font-size: 40px;
     margin-bottom: 10px;
   }
+
   .step h3 {
     font-size: 18px;
     margin-bottom: 5px;
   }
+
   .step p {
     font-size: 14px;
   }
+
+  /* FAQ section  */
   .faq {
     padding: 40px 0;
   }
-  
+
   .questions .question {
     margin-bottom: 20px;
     padding: 10px;
     font-size: 14px;
   }
-  
+
+  /* Contact us */
   #Contact {
     padding: 40px 0;
   }
-  
+
   #Contact .container {
     flex-direction: column;
     align-items: center;
   }
-  
+
   #Contact form {
     width: 100%;
     margin-bottom: 20px;
   }
-  
+
   .contact-info {
     width: 100%;
+  }
+
+  #Contact {
+    padding: 40px 0;
+  }
+
+  #Contact .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Contact form,
+  .contact-info {
+    width: 100%;
+  }
+
+  #Contact form input[type="text"],
+  #Contact form input[type="email"],
+  #Contact form textarea {
+    font-size: 16px;
+  }
+
+  #Contact form button[type="submit"] {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  /* Footer section */
+  .site-footer {
+    padding: 30px;
+  }
+
+  .site-footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-social {
+    margin-bottom: 20px;
+  }
+
+  .footer-nav {
+    margin-bottom: 20px;
+  }
+
+  .footer-nav li {
+    display: block;
+    margin: 0;
+  }
+
+  .footer-nav a {
+    display: block;
+    padding: 10px 0;
   }
 }

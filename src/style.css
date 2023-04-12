@@ -100,7 +100,7 @@ body {
   height: 600px;
   display: flex;
   align-items: center;
-  background-image: url('../../assests/Hero\ section\ background\ img.jpeg');
+  background-image: url('./assests/Hero\ section\ background\ img.jpeg');
 }
 
 .hero-content {

@@ -108,6 +108,9 @@ body {
   text-align: center;
   margin: 0 auto;
   max-width: 600px;
+  opacity: 0; 
+  transform: translateY(100px); 
+  animation: fadeInUp 1s ease-in-out forwards; 
 }
 
 .hero h1 {
@@ -625,5 +628,17 @@ body {
   .footer-nav a {
     display: block;
     padding: 10px 0;
+  }
+}
+
+/* Animation  */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

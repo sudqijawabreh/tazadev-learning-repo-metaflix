@@ -331,35 +331,35 @@ body {
 }
 
 /* Contact Us section */
-#Contact {
+.Contact {
   background-color: #f9f9f9;
   padding: 80px 0;
 }
 
-#Contact h2 {
+.Contact h2 {
   font-size: 36px;
   margin-bottom: 30px;
 }
 
-#Contact p {
+.Contact p {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-#Contact .container {
+.Contact .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
-#Contact form {
+.Contact form {
   width: 45%;
 }
 
-#Contact form input[type="text"],
-#Contact form input[type="email"],
-#Contact form textarea {
+.Contact form input[type="text"],
+.Contact form input[type="email"],
+.Contact form textarea {
   width: 100%;
   padding: 20px;
   border: none;
@@ -368,7 +368,7 @@ body {
   font-size: 18px;
 }
 
-#Contact form button[type="submit"] {
+.Contact form button[type="submit"] {
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -378,7 +378,7 @@ body {
   cursor: pointer;
 }
 
-#Contact form button[type="submit"]:hover {
+.Contact form button[type="submit"]:hover {
   background-color: #0082b3;
 }
 
@@ -568,16 +568,16 @@ body {
   }
 
   /* Contact us */
-  #Contact {
+.Contact {
     padding: 40px 0;
   }
 
-  #Contact .container {
+.Contact .container {
     flex-direction: column;
     align-items: center;
   }
 
-  #Contact form {
+.Contact form {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -586,27 +586,27 @@ body {
     width: 100%;
   }
 
-  #Contact {
+.Contact {
     padding: 40px 0;
   }
 
-  #Contact .container {
+.Contact .container {
     flex-direction: column;
     align-items: center;
   }
 
-  #Contact form,
+.Contact form,
   .contact-info {
     width: 100%;
   }
 
-  #Contact form input[type="text"],
-  #Contact form input[type="email"],
-  #Contact form textarea {
+.Contact form input[type="text"],
+.Contact form input[type="email"],
+.Contact form textarea {
     font-size: 16px;
   }
 
-  #Contact form button[type="submit"] {
+.Contact form button[type="submit"] {
     font-size: 16px;
     padding: 15px;
   }
